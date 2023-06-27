@@ -6,8 +6,8 @@
 trigger:
 - master
 
-- name: Azure Pipelines Action
-  uses: Azure/pipelines@v1.2
+pool:
+  vmImage: 'windows-latest'
 
 
 steps:
