@@ -6,8 +6,9 @@
 trigger:
 - master
 
-pool:
-  vmImage: 'windows-latest'
+- name: Azure Pipelines Action
+  uses: Azure/pipelines@v1.2
+
 
 steps:
 - script: echo Hello, world!
